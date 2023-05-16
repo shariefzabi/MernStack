@@ -1,4 +1,5 @@
 import { ActionTypes } from "../constants/actionTypes"
+import axios from "axios"
 export const setProducts =(products)=>{
 return{
     type:ActionTypes.SET_PRODUCTS,
@@ -14,7 +15,7 @@ export const selectedProduct =(product)=>{
     }
 
 export const fetchProducts =()=>{
-    const response =axios.get("")
+    const response = axios.get("")
     return{
         type:ActionTypes.FETCH_PRODUCTS
         

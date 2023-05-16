@@ -8,6 +8,7 @@ import ProductDetail from './containers/productDetail';
 function App() {
   return (
     <div className="App">
+      <Header></Header>
    <Router>
     
     <Routes>
